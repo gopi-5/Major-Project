@@ -1,6 +1,6 @@
 import dotenv from "dotenv"
 import asyncHandler from "../utils/asyncHandler.js";
-import ApiError from "../utils/APIerror.js";
+import ApiError from "../utils/ApiError.js";
 import jwt from "jsonwebtoken"
 import { User } from "../models/users.model.js";
 dotenv.config({path:'./.env'})
